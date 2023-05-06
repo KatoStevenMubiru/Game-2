@@ -14,10 +14,10 @@ public class destroyPizza : MonoBehaviour
     void Update()
     {
 
-        if(transform.position.z < 50)
-        {
-            Destroy(gameObject);
-        }
+       if(transform.position.z > 40)
+       {
+        Destroy(gameObject);
+       }
         
     }
 }
