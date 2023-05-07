@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class destroyPizza : MonoBehaviour
 {
+    private float topBound = 40.0f;
+    private float lowerBound = -10.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +16,13 @@ public class destroyPizza : MonoBehaviour
     void Update()
     {
 
-       if(transform.position.z > 40)
+       if(transform.position.z > topBound)
        {
         Destroy(gameObject);
-       }
+       } else if(transform.position.z < lowerBound){
+
+        Destroy(gameObject);
+       }//elseif
         
     }
 }

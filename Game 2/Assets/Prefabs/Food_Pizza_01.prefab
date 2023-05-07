@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8705191232820539172}
   - component: {fileID: 8705191232819539428}
   - component: {fileID: 8705191231361876906}
+  - component: {fileID: 1197528831}
+  - component: {fileID: 1197528836}
   m_Layer: 0
   m_Name: Food_Pizza_01
   m_TagString: Untagged
@@ -26,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8705191232821736228}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.1, y: 0, z: 10.6}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 0
@@ -96,4 +98,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfd0163cde02e4b0cbc2f26075fca1dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pizzaSpeed: 30
+  pizzaSpeed: 25
+--- !u!114 &1197528831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8705191232821736228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea46a9407308488c9c8dce86a794975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizonatlInput: 0
+  speed: 10
+  projectilePrefab: {fileID: 0}
+--- !u!114 &1197528836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8705191232821736228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429c678342b7b45c1b591ce500bb1ab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
