@@ -721,7 +721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1982589294}
-  - component: {fileID: 1982589293}
+  - component: {fileID: 1982589295}
   m_Layer: 0
   m_Name: spawnManager
   m_TagString: Untagged
@@ -729,18 +729,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1982589293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982589292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 300f56f4434fe46e293ace591e61247f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1982589294
 Transform:
   m_ObjectHideFlags: 0
@@ -756,6 +744,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982589295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982589292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17f492fe22d449b69e0f918edaa0c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 2118404399834376503, guid: ea647f43e9a0c4401ae88c5fb91bf80c, type: 3}
+  - {fileID: 1666346661580143133, guid: fcd407c07f3f74e82965c66fcf1d0cf9, type: 3}
+  - {fileID: 469917240000144959, guid: 16bfd6fa3ed294a4aa2575fc87d385cc, type: 3}
+  - {fileID: 9134366730277222096, guid: 14a0db816a1e74e10902cb0c2a151925, type: 3}
 --- !u!1 &2079769048 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2118404399834376503, guid: ea647f43e9a0c4401ae88c5fb91bf80c, type: 3}
