@@ -348,7 +348,7 @@
 "Assets/Scripts/destroyPizza.cs"
 "Assets/Scripts/moveForward.cs"
 "Assets/Scripts/playerController.cs"
-"Assets/Scripts/spawnManager.cs"
+"Assets/Scripts/spawn.cs"
 -langversion:9.0
 
 /deterministic
